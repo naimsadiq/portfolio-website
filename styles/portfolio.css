@@ -179,5 +179,115 @@ ul li button{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
-    /* padding-bottom: 30px; */
 }
+.resume{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+
+.resume .resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 50px;
+    /* text-align: center; */
+}
+.resume-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.education-sec h2, .experience h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.edu-details h4, .exp-details h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin: 10px 0;
+}
+
+.edu-details h5, .exp-details h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.edu-details p, .exp-details p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+hr{
+    padding-right: 10px;
+}
+.resume button{
+    padding: 10px 15px;
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    /* text-align: center; */
+    margin: 40px auto;
+    display: block;
+}
+footer{
+    background-color: #FFF8F3;
+    margin-top: 100px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    max-width: 1140px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    padding: 170px 0;
+}
+.link h2, .massege h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.link p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.link img{
+    color: #FD6E0A;
+    margin-right: 20px
+}
+form input{
+    width: 100%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #757575;
+    font-size: 20px;
+    /* display: block; */
+    background-color: white;
+}
+
+.massege .btn{
+    padding: 10px 30px;
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+}
+/* .massege textarea{
+    height: 180px;
+    width: 460px;
+} */
